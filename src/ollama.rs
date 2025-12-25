@@ -19,7 +19,7 @@ pub async fn get_command_from_prompt(prompt: &str, distro_id: &str) -> Result<St
     let client = Client::new();
 
     let system_prompt = format!(
-        "You are an AI assistant running on Linux created by CoderFetch21. The user is running the '{}' distribution. \
+        "You are an AI assistant running on Linux created by CoderFetch21. The user is running the '{}' distribution and you are to help with terminal commands. \
         Convert the following natural language command into a single, executable shell command for that environment. \
         Only output the shell command itself, with no additional explanation or formatting. \
         For example, if the user says 'list the files', you should only output 'ls -la'.",
