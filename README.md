@@ -11,3 +11,4 @@ INSTALLATION INSTRUCTIONS:
 Prerequisites:
 - You need rust installed before this can work (preferably the release version)
 - Make sure rust is updated to the latest version
+- Make sure ollama is installed which will be explained in the instructions (works best with llama3.2 out the box however it can be changed by modifying the code)
